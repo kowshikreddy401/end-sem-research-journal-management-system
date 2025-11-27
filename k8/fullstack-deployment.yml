@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: 2300033794/journal-backend:latest  # <-- change this
+          image: kowshikreddy123/journal-backend:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 2300033794/journal-frontend:latest  # <-- change this
+          image: kowshikreddy123/journal-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
